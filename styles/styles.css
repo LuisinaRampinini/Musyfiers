@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/assets/audience-g59aa09972_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.title{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(5vw + 2rem);
+    /* -webkit-text-stroke: 1px #fff; */
+    color: #fff;
+    /* background-image: linear-gradient(#fff, #fff); */
+    background-repeat: no-repeat;
+    /* -webkit-background-clip: text; */
+    /* background-position: -1400px 0; */
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: antiquewhite;
+}
